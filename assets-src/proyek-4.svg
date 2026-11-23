@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Seri tiga poster kampanye hemat air dengan tipografi besar">
+  <defs>
+    <linearGradient id="p4wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3f4" />
+      <stop offset="1" stop-color="#dbe6e8" />
+    </linearGradient>
+    <linearGradient id="p4a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f6b78" />
+      <stop offset="1" stop-color="#0b4a56" />
+    </linearGradient>
+    <linearGradient id="p4b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22c3d6" />
+      <stop offset="1" stop-color="#0f6b78" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#p4wall)" />
+  <g opacity="0.5" stroke="#c2d3d6" stroke-width="2">
+    <path d="M0 410h600" />
+    <path d="M0 60h600" />
+  </g>
+
+  <!-- poster 1 -->
+  <g transform="translate(58 78)">
+    <rect width="150" height="300" rx="6" fill="url(#p4a)" />
+    <path d="M75 60c22 34 34 50 34 68a34 34 0 0 1-68 0c0-18 12-34 34-68Z" fill="#22c3d6" />
+    <text x="75" y="188" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#eafcfb">HEMAT</text>
+    <text x="75" y="216" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#8ef0e2">AIR</text>
+    <rect x="26" y="236" width="98" height="6" rx="3" fill="#8ef0e2" opacity="0.7" />
+    <rect x="38" y="250" width="74" height="6" rx="3" fill="#8ef0e2" opacity="0.4" />
+  </g>
+
+  <!-- poster 2 -->
+  <g transform="translate(226 60)">
+    <rect width="150" height="318" rx="6" fill="#eafcfb" />
+    <path d="M0 200c26-22 48-22 74 0s50 22 76 0v118H0Z" fill="url(#p4b)" opacity="0.9" />
+    <path d="M0 232c26-22 48-22 74 0s50 22 76 0v86H0Z" fill="#0b4a56" opacity="0.85" />
+    <text x="75" y="70" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#0b4a56">1</text>
+    <text x="75" y="102" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#0f6b78">TETES</text>
+    <text x="75" y="124" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#4a7f88">berarti berharga</text>
+    <circle cx="34" cy="152" r="8" fill="#22c3d6" />
+    <circle cx="58" cy="160" r="5" fill="#22c3d6" opacity="0.7" />
+  </g>
+
+  <!-- poster 3 -->
+  <g transform="translate(394 96)">
+    <rect width="150" height="282" rx="6" fill="url(#p4b)" />
+    <g stroke="#eafcfb" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M30 60v54" />
+      <path d="M75 60v78" />
+      <path d="M120 60v42" />
+    </g>
+    <text x="75" y="184" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#04343b">JAGA</text>
+    <text x="75" y="206" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#eafcfb">SUMBERNYA</text>
+    <rect x="30" y="226" width="90" height="6" rx="3" fill="#04343b" opacity="0.5" />
+  </g>
+
+  <!-- bayangan lantai -->
+  <g opacity="0.16" fill="#0b4a56">
+    <ellipse cx="133" cy="384" rx="72" ry="10" />
+    <ellipse cx="301" cy="384" rx="74" ry="10" />
+    <ellipse cx="469" cy="384" rx="72" ry="10" />
+  </g>
+
+  <text x="58" y="424" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#0b4a56">Kampanye Lingkungan Kampus</text>
+  <text x="300" y="424" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4a7f88">3 poster A1 - cetak &amp; digital</text>
+</svg>

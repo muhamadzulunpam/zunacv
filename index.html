@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id" data-preset="aurora" data-mode="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <!-- SEO dasar -->
+    <title>Nazla Sofiah — UI/UX Designer &amp; Fresh Graduate DKV</title>
+    <meta
+      name="description"
+      content="CV dan portfolio online Nazla Sofiah, fresh graduate Desain Komunikasi Visual (IPK 3,82). Lihat keahlian, pengalaman magang, proyek desain, dan hubungi lewat WhatsApp."
+    />
+    <meta name="keywords" content="CV online, portfolio UI UX, fresh graduate DKV, desainer grafis Bandung" />
+    <meta name="author" content="Nazla Sofiah" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#6d5bff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0716" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Nazla Sofiah — CV &amp; Portfolio" />
+    <meta property="og:title" content="Nazla Sofiah — UI/UX Designer &amp; Fresh Graduate DKV" />
+    <meta
+      property="og:description"
+      content="CV + portfolio online: keahlian desain, pengalaman magang, dan proyek pilihan dalam satu halaman."
+    />
+    <!-- Ganti https://example.com dengan domain asli Anda (mis. https://Nazla.example.com) agar preview media sosial tampil benar -->
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="https://example.com/images/og-image.webp" />
+    <meta property="og:image:alt" content="Nazla Sofiah — UI/UX Designer &amp; Fresh Graduate DKV" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://example.com/images/og-image.webp" />
+    <meta name="twitter:title" content="Nazla Sofiah — UI/UX Designer" />
+    <meta name="twitter:description" content="CV + portfolio online satu halaman." />
+
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+    <!-- Font Google: Sora + Playfair Display + Space Grotesk (judul) dan Inter (isi) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&family=Sora:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    />
+
+    <!-- Terapkan preset/mode tersimpan sebelum render agar tidak kedip -->
+    <script>
+      (function () {
+        try {
+          var html = document.documentElement;
+          var preset = localStorage.getItem('zunacv:preset');
+          var mode = localStorage.getItem('zunacv:mode');
+          // DEFAULT di bawah ini harus sama dengan theme.defaultPreset / defaultMode di src/config.js
+          if (preset !== 'aurora' && preset !== 'minimal' && preset !== 'neon') preset = 'aurora';
+          if (mode !== 'light' && mode !== 'dark') mode = 'light';
+          html.setAttribute('data-preset', preset);
+          html.setAttribute('data-mode', mode);
+        } catch (e) {
+          /* localStorage diblokir: pakai atribut di tag <html> */
+        }
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Nazla Sofiah",
+        "jobTitle": "UI/UX Designer",
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universitas Seni Digital Nusantara" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Bandung", "addressCountry": "ID" },
+        "knowsAbout": ["UI Design", "UX Research", "Branding", "Prototyping"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      Hidupkan JavaScript untuk melihat CV online ini. Bisa juga hubungi saya lewat WhatsApp +62 812-3456-780.
+    </noscript>
+    <script type="module" src="./src/main.jsx"></script>
+  </body>
+</html>

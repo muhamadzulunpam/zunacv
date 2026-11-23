@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Set identitas visual Kopi Senja: gelas, kartu nama, dan logo">
+  <defs>
+    <linearGradient id="p2bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6ece1" />
+      <stop offset="1" stop-color="#e6d3c1" />
+    </linearGradient>
+    <linearGradient id="p2sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0a35e" />
+      <stop offset="1" stop-color="#c96a3a" />
+    </linearGradient>
+    <linearGradient id="p2cup" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fdfaf6" />
+      <stop offset="1" stop-color="#e8ddd2" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="url(#p2bg)" />
+  <circle cx="470" cy="90" r="120" fill="#c96a3a" opacity="0.12" />
+
+  <!-- gelas -->
+  <g transform="translate(96 118)">
+    <path d="M0 40h150l-14 168a22 22 0 0 1-22 19H36a22 22 0 0 1-22-19Z" fill="url(#p2cup)" />
+    <ellipse cx="75" cy="40" rx="75" ry="17" fill="#4c3324" />
+    <ellipse cx="75" cy="38" rx="63" ry="12" fill="#6b4630" />
+    <path d="M22 96h106v76a16 16 0 0 1-16 16H38a16 16 0 0 1-16-16Z" fill="#3f2a1d" opacity="0.9" />
+    <g transform="translate(46 112)">
+      <path d="M0 26a28 28 0 0 1 56 0Z" fill="url(#p2sun)" />
+      <path d="M6 32h44" stroke="#f6ece1" stroke-width="4" stroke-linecap="round" />
+      <circle cx="28" cy="12" r="5" fill="#f6ece1" />
+    </g>
+    <text x="75" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#f6ece1">KOPI SENJA</text>
+  </g>
+
+  <!-- kartu nama -->
+  <g transform="translate(300 236) rotate(-8)">
+    <rect width="196" height="112" rx="10" fill="#3f2a1d" />
+    <circle cx="34" cy="34" r="15" fill="url(#p2sun)" />
+    <text x="60" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#f6ece1">Aisyah R.</text>
+    <text x="60" y="58" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#c9b8a8">Visual &amp; Brand Designer</text>
+    <rect x="20" y="78" width="120" height="6" rx="3" fill="#c9b8a8" opacity="0.6" />
+    <rect x="20" y="90" width="88" height="6" rx="3" fill="#c9b8a8" opacity="0.4" />
+  </g>
+  <g transform="translate(330 128) rotate(6)">
+    <rect width="176" height="102" rx="10" fill="#fdfaf6" />
+    <path d="M58 62a30 30 0 0 1 60 0Z" fill="url(#p2sun)" />
+    <rect x="20" y="70" width="136" height="6" rx="3" fill="#d8c8b8" />
+    <text x="88" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#3f2a1d">KOPI SENJA</text>
+  </g>
+
+  <!-- palet & biji -->
+  <g transform="translate(392 356)">
+    <circle cx="0" cy="0" r="15" fill="#3f2a1d" />
+    <circle cx="36" cy="0" r="15" fill="#c96a3a" />
+    <circle cx="72" cy="0" r="15" fill="#f0a35e" />
+    <circle cx="108" cy="0" r="15" fill="#f6ece1" stroke="#d8c8b8" stroke-width="2" />
+  </g>
+  <g fill="#4c3324" opacity="0.75">
+    <ellipse cx="72" cy="392" rx="13" ry="9" transform="rotate(-24 72 392)" />
+    <ellipse cx="106" cy="404" rx="13" ry="9" transform="rotate(12 106 404)" />
+    <ellipse cx="140" cy="388" rx="13" ry="9" transform="rotate(-8 140 388)" />
+  </g>
+
+  <text x="36" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#3f2a1d">Brand Kit</text>
+  <text x="36" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#7a5a42">logo, kemasan, dan kartu nama</text>
+</svg>

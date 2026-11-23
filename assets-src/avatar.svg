@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="Ilustrasi foto profil desainer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d5bff" />
+      <stop offset="0.55" stop-color="#8f7bff" />
+      <stop offset="1" stop-color="#22c7f0" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ef" />
+      <stop offset="1" stop-color="#f2d9c4" />
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a2a35" />
+      <stop offset="1" stop-color="#241a22" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bg)" />
+  <circle cx="300" cy="250" r="188" fill="#ffffff" opacity="0.16" />
+  <circle cx="126" cy="120" r="52" fill="#ffffff" opacity="0.14" />
+  <circle cx="486" cy="150" r="34" fill="#ff4fa3" opacity="0.35" />
+
+  <!-- bahu & leher -->
+  <path d="M300 372c104 0 176 62 186 150 4 34 6 60 6 78H108c0-18 2-44 6-78 10-88 82-150 186-150Z" fill="url(#shirt)" />
+  <path d="M262 352h76v74c0 20-17 34-38 34s-38-14-38-34Z" fill="#e8b48f" />
+  <path d="M300 430c-26 0-48 12-58 30l58 34 58-34c-10-18-32-30-58-30Z" fill="#ffffff" opacity="0.55" />
+
+  <!-- rambut belakang -->
+  <path d="M300 96c74 0 122 50 122 124 0 44-6 78-14 106-6 22-16 40-24 50l-24-16c8-26 14-56 14-86 0-52-30-84-74-84s-74 32-74 84c0 30 6 60 14 86l-24 16c-8-10-18-28-24-50-8-28-14-62-14-106 0-74 48-124 122-124Z" fill="url(#hair)" />
+
+  <!-- wajah -->
+  <ellipse cx="300" cy="248" rx="94" ry="112" fill="#f3c9a6" />
+  <path d="M300 136c52 0 90 30 94 78-24-16-58-24-94-24s-70 8-94 24c4-48 42-78 94-78Z" fill="url(#hair)" />
+
+  <!-- alis -->
+  <path d="M236 214c14-10 34-10 46-2" stroke="#3a2a35" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M364 214c-14-10-34-10-46-2" stroke="#3a2a35" stroke-width="8" stroke-linecap="round" fill="none" />
+
+  <!-- mata -->
+  <ellipse cx="258" cy="248" rx="12" ry="13" fill="#2b2130" />
+  <ellipse cx="342" cy="248" rx="12" ry="13" fill="#2b2130" />
+  <circle cx="262" cy="244" r="3.4" fill="#ffffff" />
+  <circle cx="346" cy="244" r="3.4" fill="#ffffff" />
+
+  <!-- kacamata tipis -->
+  <g stroke="#4c3f57" stroke-width="5" fill="none" opacity="0.85">
+    <rect x="228" y="226" width="62" height="46" rx="16" />
+    <rect x="310" y="226" width="62" height="46" rx="16" />
+    <path d="M290 246h20" />
+  </g>
+
+  <!-- hidung & senyum -->
+  <path d="M300 268v20c0 6-6 10-12 12" stroke="#d99a72" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M272 316c10 12 26 18 40 12 8-4 14-10 16-16" stroke="#c2604f" stroke-width="8" fill="none" stroke-linecap="round" />
+
+  <!-- anting -->
+  <circle cx="208" cy="292" r="7" fill="#ffd166" />
+  <circle cx="392" cy="292" r="7" fill="#ffd166" />
+</svg>

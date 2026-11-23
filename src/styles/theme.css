@@ -1,0 +1,204 @@
+/* ============================================================
+   SISTEM TEMA — semua gaya diatur lewat CSS variables.
+   Preset : data-preset="aurora | minimal | neon"
+   Mode   : data-mode="light | dark"
+   Mengganti preset = mengganti warna, font, dan radius tanpa reload.
+   ============================================================ */
+
+/* ---------- TOKEN YANG SAMA DI SEMUA GAYA ---------- */
+:root {
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --container: 1160px;
+  --nav-h: 68px;
+  --transition: 0.45s var(--ease-out);
+}
+
+/* ---------- AURORA : ungu-biru-pink, membulat, glassy ---------- */
+[data-preset='aurora'] {
+  --font-heading: 'Sora', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --r-xl: 30px;
+  --r-lg: 22px;
+  --r-md: 16px;
+  --r-sm: 10px;
+  --brand-1: #6d5bff;
+  --brand-2: #22c7f0;
+  --brand-3: #ff4fa3;
+  --accent: #6d5bff;
+  --accent-2: #ff4fa3;
+  --on-accent: #ffffff;
+  --heading-mode: gradient;
+  --glass-blur: 14px;
+  --glow: rgba(109, 91, 255, 0.45);
+  --accent-soft: rgba(109, 91, 255, 0.13);
+  --accent-softer: rgba(109, 91, 255, 0.07);
+}
+
+[data-preset='aurora'][data-mode='light'] {
+  --bg: #f6f5ff;
+  --surface: #ffffff;
+  --surface-2: #f0eeff;
+  --line: rgba(24, 18, 60, 0.09);
+  --line-strong: rgba(24, 18, 60, 0.16);
+  --text: #14112b;
+  --muted: #58537e;
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-line: rgba(255, 255, 255, 0.8);
+  --shadow-1: 0 10px 30px -12px rgba(50, 30, 120, 0.18);
+  --shadow-2: 0 26px 60px -22px rgba(50, 30, 120, 0.3);
+  --page-bg: radial-gradient(900px 520px at 12% -8%, rgba(109, 91, 255, 0.16), transparent 60%),
+    radial-gradient(760px 460px at 92% 4%, rgba(34, 199, 240, 0.14), transparent 62%),
+    radial-gradient(620px 420px at 60% 100%, rgba(255, 79, 163, 0.12), transparent 60%);
+  color-scheme: light;
+}
+
+[data-preset='aurora'][data-mode='dark'] {
+  --bg: #0a0716;
+  --surface: #171130;
+  --surface-2: #1f1840;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.2);
+  --text: #f3f1ff;
+  --muted: #a9a3cd;
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-line: rgba(255, 255, 255, 0.14);
+  --shadow-1: 0 14px 34px -16px rgba(0, 0, 0, 0.6);
+  --shadow-2: 0 30px 70px -28px rgba(0, 0, 0, 0.75);
+  --page-bg: radial-gradient(880px 520px at 10% -10%, rgba(109, 91, 255, 0.28), transparent 62%),
+    radial-gradient(720px 460px at 95% 2%, rgba(34, 199, 240, 0.18), transparent 62%),
+    radial-gradient(640px 420px at 55% 100%, rgba(255, 79, 163, 0.16), transparent 62%);
+  color-scheme: dark;
+}
+
+/* ---------- MINIMAL : putih/hitam, satu aksen, serif elegan ---------- */
+[data-preset='minimal'] {
+  --font-heading: 'Playfair Display', 'Times New Roman', Georgia, serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --r-xl: 8px;
+  --r-lg: 6px;
+  --r-md: 5px;
+  --r-sm: 4px;
+  --brand-1: #14110f;
+  --brand-2: #c2410c;
+  --brand-3: #14110f;
+  --accent: #c2410c;
+  --accent-2: #14110f;
+  --on-accent: #ffffff;
+  --heading-mode: solid;
+  --glass-blur: 0px;
+  --glow: rgba(194, 65, 12, 0.28);
+  --accent-soft: rgba(194, 65, 12, 0.1);
+  --accent-softer: rgba(194, 65, 12, 0.05);
+}
+
+[data-preset='minimal'][data-mode='light'] {
+  --bg: #ffffff;
+  --surface: #faf9f7;
+  --surface-2: #f1efeb;
+  --line: #e6e2db;
+  --line-strong: #d4cfc6;
+  --text: #14110f;
+  --muted: #6b675f;
+  --glass-bg: #ffffff;
+  --glass-line: #e6e2db;
+  --shadow-1: 0 1px 2px rgba(20, 17, 15, 0.05);
+  --shadow-2: 0 12px 30px -18px rgba(20, 17, 15, 0.18);
+  --page-bg: none;
+  color-scheme: light;
+}
+
+[data-preset='minimal'][data-mode='dark'] {
+  --bg: #101012;
+  --surface: #17171a;
+  --surface-2: #1f1f23;
+  --line: rgba(255, 255, 255, 0.12);
+  --line-strong: rgba(255, 255, 255, 0.22);
+  --text: #f5f4f2;
+  --muted: #a3a29d;
+  --glass-bg: #17171a;
+  --glass-line: rgba(255, 255, 255, 0.12);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-2: 0 16px 34px -20px rgba(0, 0, 0, 0.8);
+  --page-bg: none;
+  color-scheme: dark;
+}
+
+/* ---------- NEON : gelap pekat, aksen hijau/cyan ---------- */
+[data-preset='neon'] {
+  --font-heading: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --r-xl: 20px;
+  --r-lg: 16px;
+  --r-md: 12px;
+  --r-sm: 8px;
+  --brand-1: #00ffa3;
+  --brand-2: #22d3ee;
+  --brand-3: #38bdf8;
+  --accent: #00e59a;
+  --accent-2: #22d3ee;
+  --on-accent: #04140f;
+  --heading-mode: gradient;
+  --glass-blur: 10px;
+  --accent-soft: rgba(0, 229, 154, 0.14);
+  --accent-softer: rgba(0, 229, 154, 0.07);
+}
+
+[data-preset='neon'][data-mode='dark'] {
+  --bg: #05070a;
+  --surface: #0b1016;
+  --surface-2: #121a22;
+  --line: rgba(0, 255, 163, 0.16);
+  --line-strong: rgba(0, 255, 163, 0.32);
+  --text: #e8f7f2;
+  --muted: #8b9aa8;
+  --glass-bg: rgba(11, 16, 22, 0.72);
+  --glass-line: rgba(0, 255, 163, 0.2);
+  --shadow-1: 0 14px 32px -18px rgba(0, 0, 0, 0.8);
+  --shadow-2: 0 0 46px -18px rgba(0, 255, 163, 0.5);
+  --glow: rgba(0, 255, 163, 0.4);
+  --page-bg: radial-gradient(820px 500px at 8% -10%, rgba(0, 255, 163, 0.14), transparent 60%),
+    radial-gradient(720px 460px at 95% 8%, rgba(34, 211, 238, 0.12), transparent 62%);
+  color-scheme: dark;
+}
+
+/* Versi terang Neon: tetap hijau-cyan tapi dengan tinta pekat agar kontras terjaga */
+[data-preset='neon'][data-mode='light'] {
+  --bg: #f2fbf8;
+  --surface: #ffffff;
+  --surface-2: #e9f6f2;
+  --line: rgba(6, 61, 51, 0.13);
+  --line-strong: rgba(6, 61, 51, 0.24);
+  --text: #06231f;
+  --muted: #4a6a66;
+  --glass-bg: rgba(255, 255, 255, 0.78);
+  --glass-line: rgba(6, 61, 51, 0.12);
+  --shadow-1: 0 10px 28px -14px rgba(6, 61, 51, 0.22);
+  --shadow-2: 0 20px 50px -22px rgba(6, 61, 51, 0.3);
+  --accent: #00966d;
+  --accent-2: #0891b2;
+  --brand-1: #00966d;
+  --brand-2: #0891b2;
+  --glow: rgba(0, 150, 109, 0.35);
+  --page-bg: radial-gradient(820px 480px at 6% -10%, rgba(0, 150, 109, 0.14), transparent 62%),
+    radial-gradient(700px 440px at 96% 6%, rgba(8, 145, 178, 0.12), transparent 62%);
+  color-scheme: light;
+}
+
+/* ---------- GRADIENT HELPERS (memakai token preset) ---------- */
+[data-preset] {
+  --brand-gradient: linear-gradient(112deg, var(--brand-1) 0%, var(--brand-2) 52%, var(--brand-3) 100%);
+}
+
+/* Mode gelap butuh tinta aksen yang lebih terang agar tetap terbaca */
+[data-mode='dark'] {
+  --accent-soft: color-mix(in srgb, var(--accent) 22%, transparent);
+  --accent-softer: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
+@supports not (color: color-mix(in srgb, red, blue)) {
+  [data-mode='dark'] {
+    --accent-soft: rgba(255, 255, 255, 0.09);
+    --accent-softer: rgba(255, 255, 255, 0.05);
+  }
+}

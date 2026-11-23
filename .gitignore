@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# hasil build (upload folder ini ke htdocs)
+dist/
+
+# editor & sistem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# log & cache
+*.log
+npm-debug.log*
+.vite/

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="ZunaCV — CV dan portofolio online Nazla Sofiah">
+  <defs>
+    <linearGradient id="ogbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141024" />
+      <stop offset="52%" stop-color="#1b1440" />
+      <stop offset="1" stop-color="#0b1020" />
+    </linearGradient>
+    <linearGradient id="ogbrand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d5bff" />
+      <stop offset="52%" stop-color="#22c7f0" />
+      <stop offset="1" stop-color="#ff4fa3" />
+    </linearGradient>
+    <filter id="ogblur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ogbg)" />
+  <g filter="url(#ogblur)" opacity="0.55">
+    <circle cx="180" cy="120" r="170" fill="#6d5bff" />
+    <circle cx="1040" cy="520" r="190" fill="#ff4fa3" />
+    <circle cx="860" cy="90" r="130" fill="#22c7f0" />
+  </g>
+
+  <g transform="translate(96 150)">
+    <rect width="176" height="176" rx="60" fill="url(#ogbrand)" />
+    <text x="88" y="112" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">AR</text>
+  </g>
+
+  <g transform="translate(320 150)" font-family="Segoe UI, Arial, sans-serif">
+    <rect y="14" width="176" height="34" rx="17" fill="#153a2b" />
+    <circle cx="24" cy="31" r="7" fill="#3ddc84" />
+    <text x="42" y="37" font-size="17" font-weight="600" fill="#9df0be">Siap menerima proyek</text>
+
+    <text x="0" y="118" font-size="66" font-weight="700" fill="#ffffff">Aisyah</text>
+    <text x="230" y="118" font-size="66" font-weight="700" fill="url(#ogbrand)">Rahmawati</text>
+    <text x="2" y="168" font-size="28" fill="#b9b3d6">UI/UX Designer &amp; Fresh Graduate DKV</text>
+  </g>
+
+  <g transform="translate(96 402)" font-family="Segoe UI, Arial, sans-serif">
+    <text x="0" y="34" font-size="30" font-weight="700" fill="url(#ogbrand)">CV + Portfolio Online</text>
+    <text x="0" y="72" font-size="23" fill="#c8c3e0">Satu tautan, tiga gaya tampilan. Dibuat dengan React, Vite, dan Tailwind CSS.</text>
+  </g>
+
+  <g transform="translate(96 512)">
+    <rect width="222" height="56" rx="28" fill="url(#ogbrand)" />
+    <text x="111" y="36" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff">Unduh CV</text>
+    <rect x="244" width="222" height="56" rx="28" fill="none" stroke="#6f67a8" stroke-width="2" />
+    <text x="355" y="36" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#d7d2ee">Hubungi Saya</text>
+    <text x="880" y="40" font-family="Consolas, monospace" font-size="22" fill="#8f88bd">ZunaCV</text>
+  </g>
+</svg>
